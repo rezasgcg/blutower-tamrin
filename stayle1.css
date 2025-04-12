@@ -1,6 +1,5 @@
-
 .div1{
-    background-color : hsla(0, 0%, 85%, 0.2);
+    background-color : hsla(0, 16%, 67%, 0.2);
     font-weight: Gilroy-Medium;
     border-radius: 108px;
  width: 1438;
@@ -12,34 +11,28 @@ margin: 10px;
 text-align: center;
 align-items: center;
 justify-content:space-around;
+margin-block-start: -964px;
 }
 h3{
     font-style: Days One;
     font-size: 40px;
     line-height: 100%;
-    padding: 100px 0px 0px 0px;
+    padding: 100px 0px 0px 0px ;
     margin-bottom: -40px;
+    margin: -20px 50px;
 }
 h2{
+    margin: 50px;
     font-style: Days One;
     font-size: 64px;
-    line-height: 100%;
+    line-height: 100%; 
 }
 .image1{
 display: flex;
 }
-.tagp{
-    width: 787px;
-    height: 162px;
-    top: 267px;
-    font-style: Gilroy-Medium;
-    font-size: 22px;
-    line-height: 100%;
-}
 .div2{
    text-align: left;
    padding-left: 50px;
-   
 }
 .button1{
     background-color:hsla(240, 100%, 16%, 1) ;
@@ -48,6 +41,8 @@ display: flex;
     height:57px;
     top: 467px;
     border-radius: 10px;
+    margin: 20px ;
+    margin: 15px 75px 0px 50px;
 }
 .image2{
     margin: 1px 0px -8px -62px;
@@ -63,9 +58,43 @@ display: flex;
     margin: 0px 0px 0px -455px;
 }
 .sec1{
-    width: 1600px;
+    width: 1800px;
     height: 1021px;
     background-color:  hsla(240, 53%, 27%, 0.55);
 }
+.p1{
+    width: 500px;
+    size: 22px;
+    font: Gilroy-Medium;
+    margin: 50px
+}
+.img-mohandes{
+    width: 504px;
+    height: 445px;
+   box-shadow:#000053  150px 70px 0px 0px;
+}
+.img-about{
 
+}
+.h3-about{
+    align-items: center;
+    text-align: center;
+    margin: -40px 0px 0px 0px;;
+}
+.sec2{
+    width: 1296px;
+    height: 892px;
+    top: 1118px;
+    left: 108px;
+}
+h3{
+    margin: 20px 0px 50px 0px;
+}
+.p-about{
+    width: 330px;
+    height: 615px;
+    size: 29px;
+    font: bold;
+    line-height: 100%;
+}
 
