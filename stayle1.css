@@ -1,20 +1,22 @@
 .div1{
-    background-color : hsla(0, 16%, 67%, 0.2);
-    font-weight: Gilroy-Medium;
+    font-family: 'Courier New', Courier, monospace;
     border-radius: 108px;
- width: 1438;
-height: 136;
-top: 73px;
-left: 91px;
-display: flex;
-margin: 10px;
-text-align: center;
-align-items: center;
-justify-content:space-around;
-margin-block-start: -964px;
+    width: 90%;
+    height: 100px;
+    top: 73px;
+    left: 91px;
+    display: flex
+;
+    /* margin: 10px; */
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-block-start: -964px; */
+    background-color: #8c8c8cb8;
+    margin: auto;
 }
 h3{
-    font-style: Days One;
+    font-family: 'Days One';
     font-size: 40px;
     line-height: 100%;
     padding: 100px 0px 0px 0px ;
@@ -23,7 +25,7 @@ h3{
 }
 h2{
     margin: 50px;
-    font-style: Days One;
+    font-family: 'Days One';
     font-size: 64px;
     line-height: 100%; 
 }
@@ -58,9 +60,10 @@ display: flex;
     margin: 0px 0px 0px -455px;
 }
 .sec1{
-    width: 1800px;
+    width: 100%;
     height: 1021px;
-    background-color:  hsla(240, 53%, 27%, 0.55);
+    background: linear-gradient(to right, rgba(32, 32, 106, 0.882), rgba(104, 104, 171, 0.52), rgba(0, 0, 104, 0.22)), url(/Group\ 31.png);
+    padding: 40px 0px;
 }
 .p1{
     width: 500px;
@@ -98,3 +101,9 @@ h3{
     line-height: 100%;
 }
 
+.mysection{
+    /* background-color: #000053; */
+    padding: 100px 0;
+    /* background-image: url(/Group\ 31.png); */
+    background: linear-gradient(to right, rgba(32, 32, 106, 0.882), rgba(104, 104, 171, 0.52), rgba(0, 0, 104, 0.22)), url(/Group\ 31.png);
+}
