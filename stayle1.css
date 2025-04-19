@@ -107,3 +107,75 @@ h3{
     /* background-image: url(/Group\ 31.png); */
     background: linear-gradient(to right, rgba(32, 32, 106, 0.882), rgba(104, 104, 171, 0.52), rgba(0, 0, 104, 0.22)), url(/Group\ 31.png);
 }
+
+.aboutUs{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.aboutUs-description{
+    width: 50%;
+}
+
+.aboutUs-image{
+    width: 50%;
+    text-align: center;
+}
+.p-relative{
+    position: relative;
+}
+.rectangle-blue{
+    width: 420px;
+    height: 450px;
+    background-color: #000053;
+    position: absolute;
+    right: 92px;
+    top: 89px;
+    z-index: -1;
+}
+
+.aboutUs-logo{
+    position: absolute;
+    bottom: -50px;
+    /* left: 0; */
+    right: 37%;
+    /* margin: auto;*/
+}
+
+.aboutUs{
+    margin-top: 100px;
+}
+
+.aboutUs-content{
+    width: 550px;
+}
+
+
+.myForm{
+display: flex;
+justify-content: space-between;
+width: 80%;
+background-color: white;
+box-shadow: 0px 3px 11px #d5d5d5;
+margin: 120px auto;
+padding: 20px;
+align-items: center;
+}
+
+.myform-inputs{
+    display: flex;
+}
+
+.myform-inputs input{
+    margin: 5px;
+}
+
+.myForm button{
+    width: 100%;
+    background-color: #000053;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
